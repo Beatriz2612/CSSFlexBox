@@ -1,0 +1,156 @@
+/* Color Theme Swatches in Hex */
+.color-theme_Sem-título-1-hex { color: #2BA8D9; }
+.color-theme_Sem-título-2-hex { color: #FF675A; }
+.color-theme_Sem-título-3-hex { color: #FAC17E; }
+.color-theme_Sem-título-4-hex { color: #63BF9E; }
+
+* {margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    color: oldlace;
+}
+
+body {
+    background-color: #2BB9D9;
+}
+div#corpo {width: 1200px; margin: 0 auto;}
+
+header {
+    width: 1220px;
+    height: 200px;
+    background-color: #2BB9D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+div#logo_cv {
+    width: 200px;
+    height: 130px;
+}
+
+nav {
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+a:hover {
+    color: #FE8664;
+    background-color: oldlace;
+}
+
+a {
+    background-color: #FF675A;
+    color: oldlace;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main {
+    width: 1220px;
+    height: 400px;
+    background-color: #FF675A;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+img#img_equipe {
+    width: 550px;
+    height: 350px;
+}
+
+div#texto_main {
+    width: 600px;
+    height: 370px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section {
+    width: 1220px;
+    height: 540px;
+    background-color: #FAC17E;
+    padding: 15px;
+}
+
+div#titulo {
+    font-size: 35px;
+}
+
+div#tres_articles {
+    width: 1190px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+article.articles {
+    width: 330px;
+    height: 420px;
+    padding: 15px;
+}
+#cor1 {
+    background-color: #2BB9D9;
+}
+img#sites_respon {
+    width: 300px;
+    height: 200px;
+}
+#cor2 {
+    background-color: #FF675A;
+}
+img#sistemas {
+    width: 300px;
+    height: 200px;
+}
+#cor3 {
+    background-color: #63BF9E;
+}
+img#projetos {
+    width: 300px;
+    height: 200px;
+}
+
+div#rodape {
+    width: 1220px;
+    height: 350px;
+    background-color: #2BB9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article#texto_contato {
+    width: 290px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div#mapa {
+    background-color: lightblue;
+    width: 650px;
+    height: 320px;
+}
+
+footer {
+    width: 1220px;
+    height: 170px;
+    background-color: #2BB9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#logo_senac {
+    width: 300px;
+    height: 150px;
+}
